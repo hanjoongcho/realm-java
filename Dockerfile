@@ -75,7 +75,7 @@ RUN mkdir /opt/cmake-tmp && \
     unzip cmake-linux.zip -d ${ANDROID_HOME}/cmake/3.6.3155560 && \
     rm -rf /opt/cmake-tmp
 
-# Make the SDK universally writablw
+# Make the SDK universally writable
 RUN chmod -R a+rwX ${ANDROID_HOME}
 
 # Install lcache
